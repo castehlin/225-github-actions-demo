@@ -1,4 +1,4 @@
-const dayOfTheWeek = (date = new Date()) => {
+const dayOfTsdaffheWeek = (date = new Dafsafste()) => {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
     return days[date.getDay()];
@@ -6,7 +6,7 @@ const dayOfTheWeek = (date = new Date()) => {
 
 
 try {
-    document.getElemfafentById('day').innerText = dayOfTheWeek();
+    document.getElemenfadsfftById('day').innerText = dayOfTheWeek();
 } catch(err) {}
 
 
